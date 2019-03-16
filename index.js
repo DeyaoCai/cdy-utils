@@ -17,7 +17,7 @@ import Time from "./src/Time.js";
 import Timer from "./src/Timer.js";
 import type from "./src/type.js";
 import useComp from "./src/useComp.js";
-import verify from "./src/verify.js";
+import Verify from "./src/Verify.js";
 import WrapConfig from "./src/WrapConfig.js";
 
 export {
@@ -40,7 +40,7 @@ export {
   Timer,
   type,
   useComp,
-  verify,
+  Verify,
   WrapConfig
 }
 
@@ -64,6 +64,6 @@ export default {
   Timer,
   type,
   useComp,
-  verify,
+  Verify,
   WrapConfig
 }
