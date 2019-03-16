@@ -7,6 +7,7 @@ import filedProxy from "./src/filedProxy.js";
 import getRelativeComp from "./src/getRelativeComp.js";
 import GHeroEditConf from "./src/GHeroEditConf.js";
 import IEvent from "./src/IEvent.js";
+import init from "./src/init.js";
 import initAudio from "./src/initAudio.js";
 import initCRouter from "./src/initCRouter.js";
 import inputConf from "./src/inputConf.js";
@@ -30,6 +31,7 @@ export {
   getRelativeComp,
   GHeroEditConf,
   IEvent,
+  init,
   initAudio,
   initCRouter,
   inputConf,
@@ -54,6 +56,7 @@ export default {
   getRelativeComp,
   GHeroEditConf,
   IEvent,
+  init,
   initAudio,
   initCRouter,
   inputConf,
