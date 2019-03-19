@@ -11,6 +11,7 @@ import init from "./src/init.js";
 import initAudio from "./src/initAudio.js";
 import initCRouter from "./src/initCRouter.js";
 import inputConf from "./src/inputConf.js";
+import makeExecLater from "./src/makeExecLater.js";
 import maps from "./src/maps.js";
 import roles from "./src/roles.js";
 import SingleDragData from "./src/SingleDragData.js";
@@ -35,6 +36,7 @@ export {
   initAudio,
   initCRouter,
   inputConf,
+  makeExecLater,
   maps,
   roles,
   SingleDragData,
@@ -60,6 +62,7 @@ export default {
   initAudio,
   initCRouter,
   inputConf,
+  makeExecLater,
   maps,
   roles,
   SingleDragData,
